@@ -7,8 +7,6 @@
             var elevator1 = new Elevator(2, 400);
             var elevator2 = new Elevator(3, 600);
 
-            var A1 = new Passenger("A1", 180);
-            var A2 = new Passenger("A2", 220);
             elevator1.AddOccupant(new Passenger("A1", 180), 0);
             elevator1.AddOccupant(new Passenger("A2", 220), 1);
             
